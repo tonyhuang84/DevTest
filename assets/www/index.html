@@ -31,22 +31,13 @@
         <script type="text/javascript" src="cordova-2.5.0.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript" charset="utf-8" src="wordDb.js"></script>
+        <script type="text/javascript" charset="utf-8" src="testFunc.js"></script>
         
         <script type="text/javascript">
         	//alert(document.location);
-        	
-            var html = [''];
-			html.push('<br><br><table border="1">');
-			for (i in myQues)
-			{
-				html.push('<tr><td>');
-				//html.push('<a href="#" class="btn large" onclick="playAudio(\'', path + value, '\');">Listen</a><br>');
-				html.push(i);
-//				alert(i);
-				html.push('</td></td>');
-			}
-			html.push('</table>');
-			document.getElementById("week_list").innerHTML = html.join('');
+
+//			show_week_list();
+			
         </script>
     </body>
 </html>
